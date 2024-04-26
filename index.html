@@ -27,34 +27,37 @@ tuerto
 .color3 { #1c3c6c };
 .color4 { #527095 };
 .color5 { #cec3b1 };-->
- 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./public/assets/C&G COLOR-01.png"  alt="logo"  class="img-fluid" class="logo" width="200px" height="auto"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+
+<!-- Header, Barra de Navegación -->
+<header class="container-fluid" > 
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#inicio">
+          <img src="./public/assets/C&G COLOR-01.png" alt="logo" class="logo" width="100%" height="200px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"  aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">EMPRESA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">SERVICIOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">EXPERIENCIA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTO</a>
-              </li>             
-            </ul>
+              <ul class="navbar-nav ms-auto mb-1 mb-lg-0">
+                  <li  class="nav-item dropdown border-end border-2">
+                      <a class="nav-link" role="button" aria-expanded="false" id="inicio" href="#">INICIO</a></li>
+                  
+                      <li class="nav-item dropdown border-start border-end border-2">
+                          <a class="nav-link" role="button" aria-expanded="false" href="#">EMPRESA</a></li>
+              
+                      <li class="nav-item dropdown border-start border-end border-2">
+                      <a class="nav-link" role="button" aria-expanded="false" href="#" >SERVICIOS</a></li>
+                  <li class="nav-item dropdown border-start">
+                      <a class="nav-link" role="button" aria-expanded="false" href="#">EXPERIENCIA</a></li>
+                  <li class="nav-item dropdown border-start">
+                      <a class="nav-link" role="button" aria-expanded="false" href="#">CONTACTO</a></li>
+              </ul>
           </div>
-        </div>
-      </nav>
+      </div>
+  </nav>
+</header>
 
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
@@ -64,13 +67,13 @@ tuerto
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="./public/assets/carrousel1.jpg" class="d-block w-100" alt="img1">
           </div>
           <div class="carousel-item">
-            <img src="./public/assets/proyectosbanner.jpg" class="d-block w-100" alt="...">
+            <img src="https://ingenieriayproyecto.com.ar/images/banner4.jpg" class="d-block w-100" alt="img2">
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <img src="./public/assets/3.jpg" class="d-block w-100" alt="img3">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
