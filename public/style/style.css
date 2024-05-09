@@ -1,9 +1,91 @@
-.fixed-top{
+.navbar {
+    background-color: #ffffff;
+    /* Color de fondo de la barra de navegación */
+    padding: 15px 20px;
+    /* Espaciado interno */
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    
+}
+
+.navbar-brand img {
+    height: 100px;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu ul li {
+    padding: 10px 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    /* Color de texto del menú */
+}
+
+.navbar-toggler {
+    display: none;
+    /* Oculta el botón de menú en tamaños de pantalla de escritorio */
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+    }
+
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        padding: 10px 0;
+    }
+
+    .navbar-toggler {
+        display: block;
+        /* Muestra el botón de menú en tamaños de pantalla móviles */
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+}
+
+/* PRUEBA NAVBAR */
+
+
+
+.fixed-top {
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
 }
+
 
 /* STYLE PRESENTACION EMPRESA */
 .containerEmpresa {
@@ -196,7 +278,7 @@ footer {
     height: 15rem;
     font-size: 20px;
     background-color: #dfd9d91b;
-    
+
 }
 
 footer .container .footerRight ul {
@@ -213,8 +295,8 @@ footer .container .footerRight ul {
     align-items: center;
 }
 
-#title{
-    font-weight:bold;
+#title {
+    font-weight: bold;
     font-size: 23px;
 }
 
@@ -223,7 +305,7 @@ footer .container .footerRight ul {
     height: auto;
 }
 
-.down{
+.down {
     font-size: 16px;
     margin-top: 20px;
 }
@@ -245,12 +327,12 @@ footer .container .footerRight ul {
         flex-direction: column;
     }
 
-    .containerSomos{
+    .containerSomos {
         display: flex;
         flex-direction: column;
     }
 
-    .containerVision{
+    .containerVision {
         display: flex;
         flex-direction: column;
     }
@@ -259,11 +341,11 @@ footer .container .footerRight ul {
         display: flex;
         flex-direction: column;
         font-size: 15px;
-       
-       
+
+
     }
 
-    #title{
+    #title {
         font-size: 18px;
     }
 
