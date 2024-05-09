@@ -1,13 +1,7 @@
 .navbar {
-    background-color: #ffffff;
-    /* Color de fondo de la barra de navegación */
     padding: 15px 20px;
-    /* Espaciado interno */
     display: flex;
     justify-content: space-between;
-    background-color: transparent;
-    transition: background-color 0.3s ease;
-    
 }
 
 .navbar-brand img {
@@ -265,6 +259,10 @@ img {
 
 .carousel-inner img {
     height: 500px;
+}
+
+#carouselExampleIndicators{
+    margin-top: 131px !important;
 }
 
 /* FOOTER */
