@@ -2,6 +2,7 @@
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
+    background-color: #0d141f;
 }
 
 .navbar-brand img {
@@ -26,8 +27,12 @@
 
 .menu ul li a {
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
     /* Color de texto del menú */
+}
+
+.menu ul li a :hover{
+    
 }
 
 .navbar-toggler {
@@ -272,14 +277,12 @@ footer {
     bottom: 0;
     top: 100%;
     text-align: center;
-    margin-top: 50px;
     height: 15rem;
-    font-size: 20px;
-    background-color: #dfd9d91b;
-
+    background-color: #0d141f;
+    color: #ffffff;
 }
 
-footer .container .footerRight ul {
+footer .container ul {
     display: flex;
     flex-direction: column;
     list-style: none;
@@ -293,21 +296,16 @@ footer .container .footerRight ul {
     align-items: center;
 }
 
-#title {
-    font-weight: bold;
-    font-size: 23px;
-}
-
-.footerLeft,
-.footerRight {
-    height: auto;
-}
 
 .down {
     font-size: 16px;
     margin-top: 20px;
 }
 
+.down a{
+    color: #000000;
+    text-decoration: none;
+}
 
 @media screen and (min-width: 760px) {
     .imagText {
@@ -339,16 +337,7 @@ footer .container .footerRight ul {
         display: flex;
         flex-direction: column;
         font-size: 15px;
-
-
     }
 
-    #title {
-        font-size: 18px;
-    }
-
-    .footerLeft,
-    .footerRight {
-        width: 50%;
-    }
+ 
 }

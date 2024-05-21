@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", function () {
         if (scrollOnce) {
             navbar.classList.add('fixed-top');
-            navbar.style.backgroundColor = 'white'; // Cambia el fondo a blanco
             scrollOnce = false;
         }
     });
