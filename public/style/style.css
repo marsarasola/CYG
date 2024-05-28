@@ -1,8 +1,12 @@
+
+
 .navbar {
     padding: 15px 20px;
     display: flex;
-    justify-content: space-between;
-    background-color: #0d141f;
+    justify-content: space-around;
+    background-color: white;
+    font-family: "Jost", Sans-serif;
+    font-weight: 500;
 }
 
 .navbar-brand img {
@@ -27,12 +31,12 @@
 
 .menu ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     /* Color de texto del menú */
 }
 
-.menu ul li a :hover{
-    
+.menu ul li a:hover{
+    color: #636262;
 }
 
 .navbar-toggler {
@@ -277,9 +281,9 @@ footer {
     bottom: 0;
     top: 100%;
     text-align: center;
-    height: 15rem;
     background-color: #0d141f;
     color: #ffffff;
+    
 }
 
 footer .container ul {
@@ -291,20 +295,14 @@ footer .container ul {
 .container {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
-    width: 100%;
+    flex-direction: column;
     align-items: center;
 }
 
-
-.down {
-    font-size: 16px;
-    margin-top: 20px;
-}
-
-.down a{
-    color: #000000;
+.container a{
+    color: #ffffff;
     text-decoration: none;
+    
 }
 
 @media screen and (min-width: 760px) {
